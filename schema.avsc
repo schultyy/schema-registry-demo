@@ -1,0 +1,9 @@
+"namespace": "com.cisco.eti.chatmessage",
+  "type": "record",
+  "name": "ChatMessage",
+  "doc" : "Represents a chat message sent by a user",
+  "fields": [
+    {"name": "email", "type": "string", "doc": "The person who sent the message"},
+    {"name": "message", "type": "string", "doc": "The message"}
+  ]
+}
